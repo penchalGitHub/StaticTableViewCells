@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		1A1CAD29246AD389000156FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CAD28246AD389000156FB /* AppDelegate.swift */; };
 		1A1CAD2B246AD389000156FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CAD2A246AD389000156FB /* SceneDelegate.swift */; };
-		1A1CAD2D246AD389000156FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CAD2C246AD389000156FB /* ViewController.swift */; };
 		1A1CAD30246AD389000156FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1CAD2E246AD389000156FB /* Main.storyboard */; };
 		1A1CAD32246AD38C000156FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1CAD31246AD38C000156FB /* Assets.xcassets */; };
 		1A1CAD35246AD38C000156FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1CAD33246AD38C000156FB /* LaunchScreen.storyboard */; };
+		1A1CAD3D246ADA63000156FB /* StaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CAD3C246ADA63000156FB /* StaticTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A1CAD25246AD389000156FB /* StaticTableViewCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticTableViewCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1CAD28246AD389000156FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A1CAD2A246AD389000156FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A1CAD2C246AD389000156FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A1CAD2F246AD389000156FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A1CAD31246AD38C000156FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A1CAD34246AD38C000156FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A1CAD36246AD38C000156FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1CAD3C246ADA63000156FB /* StaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				1A1CAD28246AD389000156FB /* AppDelegate.swift */,
 				1A1CAD2A246AD389000156FB /* SceneDelegate.swift */,
-				1A1CAD2C246AD389000156FB /* ViewController.swift */,
+				1A1CAD3C246ADA63000156FB /* StaticTableViewController.swift */,
 				1A1CAD2E246AD389000156FB /* Main.storyboard */,
 				1A1CAD31246AD38C000156FB /* Assets.xcassets */,
 				1A1CAD33246AD38C000156FB /* LaunchScreen.storyboard */,
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1CAD2D246AD389000156FB /* ViewController.swift in Sources */,
 				1A1CAD29246AD389000156FB /* AppDelegate.swift in Sources */,
+				1A1CAD3D246ADA63000156FB /* StaticTableViewController.swift in Sources */,
 				1A1CAD2B246AD389000156FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
