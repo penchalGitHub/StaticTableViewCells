@@ -17,7 +17,7 @@ class StaticTableViewController: UITableViewController {
         super.viewDidLoad()
         print(isSignup)
         print("Adding First Line of code for testing")
-
+        print("Adding second line of code")
     }
 
     // MARK: - Table view data source
