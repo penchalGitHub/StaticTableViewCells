@@ -15,6 +15,7 @@ class StaticTableViewController: UITableViewController {
     var isSignup:Bool! = false
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(isSignup)
 
     }
 
