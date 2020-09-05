@@ -16,6 +16,7 @@ class StaticTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(isSignup)
+        print("Adding First Line of code for testing")
 
     }
 
